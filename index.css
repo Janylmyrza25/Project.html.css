@@ -1,0 +1,244 @@
+html, body {
+    background-color: teal;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: yellow;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    text-transform: uppercase;}
+.nav-menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        padding: 0;
+      }
+.nav-menu a {
+        padding: 8px 12px;
+        background-color: darkslategrey;
+        text-decoration: none;
+        border-radius: 5px;
+        border: 1px solid;
+      }
+.layout {
+        display: flex;
+        gap: 20px;
+      }
+      aside {
+        width: 250px;
+      }
+      main {
+        flex: 1;
+      }
+nav {
+    font-size: 12pt;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+}
+h2 {
+    color: yellow;
+    font-size: 20pt;
+    text-align: center;
+}
+h3 {
+    color: rgb(255, 145, 0) ;
+    margin: 10px;
+    padding: 20px;
+}
+#heading3 {
+    color: beige ;
+}
+menu a {
+    color: beige;
+}
+aside {
+    width: 250px;
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+aside ul {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: disc;
+    flex-direction: column;
+    justify-content: space-between;
+}
+aside li {
+    width: 100%;
+    color: yellow;
+}
+aside a {
+    color: yellow;
+    font-weight: bolder;
+    font-family: serif; 
+    display: block;
+    width: 100%;
+    padding: 20px;
+    text-decoration: none;
+   border-bottom: 1px solid #bbb;
+   
+}  
+table {
+    color: azure;
+    width: 80%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+caption {
+    font-size: x-large;
+    color: aqua;
+    margin: 10px; 
+}
+th {
+    font-weight: bolder;
+    color: aqua;
+}
+header {
+    background-color: darkslategrey;
+}
+p{
+    color: aliceblue;
+    font-size: 18px;
+    padding: 20px;
+}
+a {
+    color: white;
+    margin: 15px;
+}
+ul {
+    color: aliceblue;
+    padding-left: 40px;
+    
+   
+}
+ol{
+    color: aliceblue;
+    padding-left: 40px;
+    
+}
+form {
+    color: beige;
+}
+button {
+    color: brown;
+    padding: 20px;
+}
+footer {
+    background-color: darkslategrey;
+    border: 1px solid; color:rgb(255, 145, 0);
+    padding-block-end: 15px;
+    margin-right: 250px;
+    clear: both;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+figure {
+    text-align: center;
+}
+#yr {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+#firstpicture {
+    margin: 20px;
+}
+.bolukcho li {
+    color: lawngreen;
+}
+.karta {
+    position: relative;
+    width: 650px;
+    height: 350px;
+    display: inline-block;
+    top: 20px;
+    left: 200px;
+}
+.karta img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.karta  a {
+    position: absolute;
+    top: 290px;
+    left: 300px;
+    background-color: aliceblue;
+    color: black;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+main {
+    width: 80%;
+    margin-right: 250px;
+    flex: 1;
+    padding: 20px;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+      }
+    .layout {
+        display: flex;
+        flex-direction: column;
+      }
+    aside {
+        order: 2;
+        width: 100%;
+      }
+    main {
+        order: 1;
+        width: 100%;
+      }
+    
+    img {
+        width: 100% !important;
+        height: auto !important;
+      }
+    
+    table {
+        font-size: 14px;
+        overflow-x: auto;
+        display: block;
+      }
+    
+    th,
+    td {
+        padding: 6px;
+      }
+}
+
+
+
+ 
